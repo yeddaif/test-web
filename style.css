@@ -1,0 +1,82 @@
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    h1 {
+        background-color: #eee;
+        border-radius: 4px;
+        padding: 3px;
+        margin-bottom: 5px;
+        width: 67%;
+        margin: 5px;
+    }
+    
+    nav,
+    footer {
+        background-color: blueviolet;
+    }
+    
+    nav ul,
+    aside ul {
+        list-style: none;
+    }
+    
+    nav li {
+        display: inline-block;
+        padding: 9px;
+    }
+    
+    nav a,
+    aside a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: orange;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 9px;
+        color: #fff;
+    }
+    
+    aside {
+        float: right;
+        border-radius: 5px;
+        margin: 5px;
+        background-color: blueviolet;
+        padding: 6px;
+        width: 30%;
+    }
+    
+    aside li {
+        margin: 9px;
+    }
+    
+    #about-me,
+    #skills {
+        width: 67%;
+        padding: 9px;
+        margin-bottom: 10%;
+    }
+    
+    #about-me img[alt="avatar"] {
+        width: 20%;
+        float: left;
+        margin: 5px;
+    }
+    
+    #about-me p,
+    #skills p {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    
+    .progress {
+        margin: 10px 14px;
+    }
