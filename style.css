@@ -1,81 +1,137 @@
-    * {
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    h1 {
-        background-color: #eee;
-        border-radius: 4px;
-        padding: 3px;
-        margin-bottom: 5px;
-        margin: 5px;
-    }
-    
-    nav,
-    footer {
-        background-color: blueviolet;
-    }
-    
-    nav ul,
-    aside ul {
-        list-style: none;
-    }
-    
-    nav li {
-        display: inline-block;
-        padding: 9px;
-    }
-    
-    nav a,
-    aside a {
-        color: #fff;
-        text-decoration: none;
-    }
-    
-    a:hover {
-        color: orange;
-    }
-    
-    footer {
-        text-align: center;
-        padding: 9px;
-        color: #fff;
-    }
-    
-    aside {
-        float: right;
-        border-radius: 5px;
-        margin: 5px;
-        background-color: blueviolet;
-        padding: 6px;
-        width: 30%;
-    }
-    
-    aside li {
-        margin: 9px;
-    }
-    
-    #about-me,
-    #skills {
-        width: 67%;
-        padding: 9px;
-        margin-bottom: 10%;
-    }
-    
-    #about-me img[alt="avatar"] {
-        width: 20%;
-        float: left;
-        margin: 5px;
-    }
-    
-    #about-me p,
-    #skills p {
-        font-size: 18px;
-        letter-spacing: 1px;
-    }
-    
-    .progress {
-        margin: 10px 14px;
-    }
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    background-color: #eee;
+    border-radius: 4px;
+    padding: 3px;
+    margin-bottom: 5px;
+    width: auto;
+    margin: 5px;
+}
+
+nav,
+footer {
+    background-color: blueviolet;
+}
+
+nav ul,
+.sidebar ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 9px;
+}
+
+nav a,
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+footer {
+    text-align: center;
+    padding: 9px;
+    color: #fff;
+}
+
+aside {
+    float: right;
+    border-radius: 5px;
+    margin: 5px;
+    width: 30%;
+    background-color: #ddd;
+    height: max-content;
+}
+
+.sidebar,
+aside div {
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 9px;
+}
+
+.quote p,
+.quote blockquote {
+    color: #fff;
+}
+
+.quote h2 {
+    text-align: center;
+    color: green;
+    word-wrap: break-word;
+}
+
+.sidebar li {
+    margin: 9px;
+}
+
+#about-me,
+#skills,
+#resume,
+#contact-me {
+    width: 67%;
+    padding: 9px;
+    margin-bottom: 7%;
+    display: block;
+}
+
+#about-me img[alt="avatar"] {
+    width: 20%;
+    float: left;
+    margin: 5px;
+}
+
+#about-me p,
+#skills p,
+#resume p,
+#contact-me p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.progress {
+    margin: 10px 14px;
+}
+
+#resume span {
+    color: red;
+    text-shadow: 1px 2px 1px #de50cd;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+form label,
+form input,
+form textarea {
+    display: block;
+    margin: 5px;
+    padding: 9px;
+    width: 95%;
+    border-radius: 5px;
+}
+
+form {
+    margin: 9px auto;
+}
+
+form label {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+form input::placeholder {
+    color: orchid;
+}
