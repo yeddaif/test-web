@@ -115,7 +115,8 @@ aside div {
 
 form label,
 form input,
-form textarea {
+form textarea,
+button {
     display: block;
     margin: 5px;
     padding: 9px;
@@ -127,7 +128,8 @@ form {
     margin: 9px auto;
 }
 
-form label {
+form label,
+button {
     background-color: blueviolet;
     color: #fff;
 }
