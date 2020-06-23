@@ -84,14 +84,16 @@ aside div {
 #contact-me {
     width: 67%;
     padding: 9px;
-    margin-bottom: 7%;
     display: block;
 }
 
 #about-me img[alt="avatar"] {
     width: 20%;
-    float: left;
     margin: 5px;
+}
+
+#about-me p {
+    display: inline;
 }
 
 #about-me p,
