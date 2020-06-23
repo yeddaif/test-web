@@ -15,28 +15,98 @@
                 <a href="index.html">Home</a>
             </li>
             <li>
-                <a href="sign-up.html">Sign Up</a>
-            </li>
-            <li>
-                <a href="contact-us.html">Contact US</a>
+                <a href="#contact-me">Contact US</a>
             </li>
         </ul>
     </nav>
     <aside>
-        <ul>
-            <li>
-                <a href="index.html">About Me</a>
-            </li>
-            <li>
-                <a href="skills.html">My Skills</a>
-            </li>
-        </ul>
+        <div class="sidebar">
+
+
+            <ul>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#skills">My Skills</a>
+                </li>
+                <li>
+                    <a href="#resume">Resume</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+        <div class="quote">
+            <h2>Favorite Quote</h2>
+            <blockquote>
+                Life is what happens when you're busy making other plans.
+            </blockquote>
+            <p>
+                -John Lennon
+            </p>
+        </div>
     </aside>
     <div class="container">
         <div id="about-me">
             <h1>About Me</h1>
             <img src="images/geek.png" alt="avatar">
             <p>I'm an ambitious young man , I have a huge willing of learn new thing and make things that make a difference !</p>
+        </div>
+        <div id="skills">
+            <h1>Skills</h1>
+            <div class="progress">
+                <dl>
+                    <dd>
+                        <img src="images/css.png" alt="css">
+                        <label>Css</label>
+                        <progress value="30" max="100"> 30% </progress>
+                    </dd>
+                </dl>
+                <dd>
+                    <img src="images/html.png" alt="css">
+                    <label>Html</label>
+                    <progress value="70" max="100"> 70% </progress>
+                </dd>
+                </dl>
+                <dd>
+                    <img src="images/js.png" alt="css">
+                    <label>Javascript</label>
+                    <progress value="20" max="100"> 20% </progress>
+                </dd>
+                </dl>
+                <dd>
+                    <img src="images/php.png" alt="css">
+                    <label>Php</label>
+                    <progress value="0" max="100"> 0% </progress>
+                </dd>
+                </dl>
+            </div>
+        </div>
+        <div id="resume">
+            <h1>My Resume</h1>
+            <p>
+                <span> 2006 </span>: Attend primary school
+            </p>
+            <p>
+                <span> 2015 </span>: Make scientific project in high school
+            </p>
+            <p>
+                <span>  2019 </span>: Starting computer science and applicated mathematics in college
+            </p>
+
+        </div>
+        <div id="contact-me">
+            <h1>Contact Me</h1>
+            <form action="viod">
+                <label>Name</label>
+                <input type="text" placeholder="Please Enter Your Name">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="... @gmail.com">
+                <label>Message</label>
+                <textarea cols="30" rows="10"></textarea>
+            </form>
         </div>
     </div>
     <footer>
